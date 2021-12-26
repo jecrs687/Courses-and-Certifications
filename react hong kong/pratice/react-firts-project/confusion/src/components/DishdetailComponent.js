@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { Card, CardImg, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
@@ -41,7 +41,7 @@ function DishDeails({dish}) {
                                 {RenderDish([dish.name, dish.description])}
                             </Card>
                         </div>
-                        {RenderComents(dish.comments)}
+                        {RenderComents(dish)}
                     </div> </div> : <h1>{console.log(dish)}</h1>
         )
 

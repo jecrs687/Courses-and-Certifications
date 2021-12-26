@@ -14,12 +14,12 @@ import { Card, CardImg, CardImgOverlay,
         );
     }
 
-    const Menu = (props) => {
+    const Menu = ({dishes, onClick}) => {
 
-        const menu = props.dishes.map((dish) => {
+        const menu = dishes.map((dish) => {
             return (
                 <div className="col-12 col-md-5 m-1"  key={dish.id}>
-                    <RenderMenuItem dish={dish} onClick={props.onClick} />
+                    <RenderMenuItem dish={dish} onClick={onClick} />
                 </div>
             );
         });
