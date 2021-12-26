@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
 
-    function RenderDish([name, description]) {
+    function RenderDish({name, description}) {
         return (
 
             <CardBody>
@@ -32,17 +32,16 @@ import { Card, CardImg, CardText, CardBody,
     }
 function DishDeails({dish}) {
            return (
-            dish ?
-                <div className="container">
+               dish ? <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-5 m-1">
                             <Card>
                                 <CardImg top src={dish.image} alt={dish.name} />
-                                {RenderDish([dish.name, dish.description])}
+                                <RenderDish name = {dish.name} description = {dish.description}/>
                             </Card>
                         </div>
-                        {RenderComents(dish)}
-                    </div> </div> : <h1>{console.log(dish)}</h1>
+                        <RenderComents comments = {dish.comments}/>
+                    </div> </div> :null
         )
 
 }
