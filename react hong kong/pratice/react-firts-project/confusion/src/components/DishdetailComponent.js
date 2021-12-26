@@ -1,14 +1,9 @@
-import React, { Component } from 'react'
-import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap'
+import React,{useState} from 'react';
+import { Card, CardImg, CardText, CardBody,
+    CardTitle } from 'reactstrap';
 
 
-class DishDeails extends Component {
-    constructor(props) {
-        super(props)
-    }
-
-
-    renderDish([name, description]) {
+    function RenderDish([name, description]) {
         return (
 
             <CardBody>
@@ -17,7 +12,7 @@ class DishDeails extends Component {
             </CardBody>
         )
     }
-    renderComents(comments) {
+    function RenderComents({comments}) {
         return (
             <div className="col-12 col-md-5 m-1">
                 <ul className='list-unstyled'>
@@ -35,21 +30,20 @@ class DishDeails extends Component {
 
         )
     }
-    render() {
-        return (
-            this.props.dish ?
+function DishDeails({dish}) {
+           return (
+            dish ?
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-5 m-1">
                             <Card>
-                                <CardImg top src={this.props.dish.image} alt={this.props.dish.name} />
-                                {this.renderDish([this.props.dish.name, this.props.dish.description])}
+                                <CardImg top src={dish.image} alt={dish.name} />
+                                {RenderDish([dish.name, dish.description])}
                             </Card>
                         </div>
-                        {this.renderComents(this.props.dish.comments)}
-                    </div> </div> : null
+                        {RenderComents(dish.comments)}
+                    </div> </div> : <h1>{console.log(dish)}</h1>
         )
-    }
 
 }
 export default DishDeails;
