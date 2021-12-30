@@ -22,7 +22,7 @@ class Contact extends Component {
         }
         this.handleSumit = this.handleSumit.bind(this)
         this.handleInputChange = this.handleInputChange.bind(this)
-        this.handleBlur = this.handleBlur(this)
+        this.handleBlur = this.handleBlur.bind(this)
     }
     handleInputChange(event) {
         const target = event.target;
@@ -53,11 +53,11 @@ class Contact extends Component {
         }
         if (this.state.touched.firstname && firstname.length < 3)
             errors.firstname = 'First Name too short'
-        else if (this.state.touched.firstname && firstname.length < 10)
+        else if (this.state.touched.firstname && firstname.length > 10)
             errors.firstname = 'First Name too long'
         if (this.state.touched.lastname && lastname.length < 3)
             errors.lastname = 'Lastname Name too short'
-        else if (this.state.touched.lastname && lastname.length < 10)
+        else if (this.state.touched.lastname && lastname.length > 10)
             errors.lastname = 'Lastname Name too long'
 
         const reg = /^\d+$/;
@@ -67,7 +67,7 @@ class Contact extends Component {
             errors.telnum = "Tel. Number is too short"
         else if (this.state.touched.telnum && telnum.length > 12)
             errors.telnum = "Tel. Number is too long"
-        if (this.state.touched.email && email.split('').filter(x => x === '@').length !== 1 && email.split('').filter(x => x === '.').length < 1)
+        if (this.state.touched.email && email.split('').filter(x => x === '@').length !== 1 && email.split('').filter(x => x === '.').length >= 1)
             errors.email = 'email format is incorrect'
         return errors;
     }
