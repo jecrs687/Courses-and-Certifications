@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    Card, CardImg, CardImgOverlay,
-    CardTitle, Breadcrumb, BreadcrumbItem
+    Card, CardImg, CardText, CardBody,
+    CardTitle, Breadcrumb, BreadcrumbItem, CardHeader, CardImgOverlay
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -10,10 +10,14 @@ function RenderMenuItem({ dish }) {
     return (
         <Card>
             <Link to={`/menu/${dish.id}`} >
-                <CardImg width="100%" src={dish.image} alt={dish.name} />
-                <CardImgOverlay>
-                    <CardTitle>{dish.name}</CardTitle>
-                </CardImgOverlay>
+                <h4>
+                    <CardImgOverlay>
+                        <CardHeader className="text-dark bg-light" >
+                            {dish.name}
+                        </CardHeader>
+                    </CardImgOverlay>
+                </h4>
+                <CardImg top src={dish.image} alt={dish.name} />
             </Link>
         </Card>
     );
