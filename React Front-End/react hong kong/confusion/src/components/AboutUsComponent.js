@@ -7,7 +7,8 @@ function RenderLeader({ leader }) {
         <>
             <Media className="row mt-3">
                 <Media className="col-12 col-md-1 m-5 mt-0">
-                    <Media object src={leader.image} />
+
+                    <img src={'/assets/images/emanuel.jpeg'} height="105" width="105" alt='Ristorante Con Fusion' />
                 </Media>
                 <Media className="col-10 " body>
                     <Media heading>{leader.name}</Media>
