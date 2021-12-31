@@ -62,12 +62,13 @@ I learned about components (I aready did know it, but the course was more deep t
 <summary>
 Week 2 - React Router and Single Page Applications
 </summary>
-Here we used the b
+Here we used the react-router-dom to implement a single page application
 </details>
 <details>
 <summary>
 Week 3 - React Forms, Flow Architecture and Introduction to Redux
-</summary>
+Here we created on two ways forms. In the first way we used only react and in the second way 
+  </summary>
 
 </details><details>
 <summary>
