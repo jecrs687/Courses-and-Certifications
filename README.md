@@ -67,9 +67,8 @@ Here we used the react-router-dom to implement a single page application
 <details>
 <summary>
 Week 3 - React Forms, Flow Architecture and Introduction to Redux
-Here we created on two ways forms. In the first way we used only react and in the second way 
   </summary>
-
+Here we created on two ways forms. In the first way we used only react and in the second way 
 </details><details>
 <summary>
 Week 4 - More Redux and Client-Server Communication
