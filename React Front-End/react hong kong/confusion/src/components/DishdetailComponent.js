@@ -94,14 +94,14 @@ function Mod({ toggleModal }) {
                         <Label htmlFor="message" md={2}>Comment</Label>
                         <Col md={10}>
                             <Control.textarea model=".message" id="message" name="message"
-                                rows="12"
+                                rows="6"
                                 className="form-control" />
                         </Col>
                     </Row>
                     <Row className="form-group mt-3">
                         <Col md={{ size: 10, offset: 2 }}>
                             <Button type="submit" color="primary">
-                                Send Feedback
+                                Submit
                             </Button>
                         </Col>
                     </Row>
