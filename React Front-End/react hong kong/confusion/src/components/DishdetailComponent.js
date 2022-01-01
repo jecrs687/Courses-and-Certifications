@@ -23,7 +23,7 @@ function RenderDish({ dish }) {
 }
 function RenderComments({ comments }) {
     return (
-        <div className="col-12 col-md-8 m-1">
+        <div className="col-12 col-md-10 m-1">
             <ul className='list-unstyled'>
                 <h4>Comments</h4>
                 {comments.map(comment => (
