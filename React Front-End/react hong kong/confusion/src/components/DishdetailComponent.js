@@ -23,7 +23,7 @@ function RenderDish({ dish }) {
 }
 function RenderComments({ comments }) {
     return (
-        <div className="col-12 col-md-5 m-1">
+        <div className="col-12 col-md-8 m-1">
             <ul className='list-unstyled'>
                 <h4>Comments</h4>
                 {comments.map(comment => (
@@ -39,14 +39,14 @@ function RenderComments({ comments }) {
 
     )
 }
-function Mod({ toggleModal }) {
+function Mod({ toggle, addComment, dishId }) {
     function handleSubmit(values) {
-        console.log("Current State is: " + JSON.stringify(values))
-        alert("Current State is:" + JSON.stringify(values))
+        toggle();
+        addComment(dishId, values.rating, values.yourname, values.message)
 
     }
     return (<>
-        <ModalHeader toggle={toggleModal}>
+        <ModalHeader toggle>
             Login
         </ModalHeader>
         <ModalBody>
@@ -141,7 +141,7 @@ function DishDeails(props) {
 
             </div>
             <Modal isOpen={isModalOpen} toggle={toggleModal}>
-                <Mod toggleModal />
+                <Mod toggle={toggleModal} addComment={props.addComment} dishId={props.dish.id} />
             </Modal>
         </div>
     )
