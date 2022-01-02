@@ -6,6 +6,9 @@ import {
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { Control, LocalForm, Errors } from 'react-redux-form';
+import { Loading } from './LoadingComponent';
+
+
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
@@ -110,41 +113,61 @@ function Mod({ toggle, addComment, dishId }) {
         </ModalBody>
     </>)
 }
-function DishDeails(props) {
+function DishDetail(props) {
     const [isModalOpen, setModalOpen] = useState(false)
     function toggleModal() {
         setModalOpen(!isModalOpen)
     }
-    return (
-        <div className="container">
-            <div className="row">
-                <Breadcrumb>
-
-                    <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
-                    <BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
-                </Breadcrumb>
-                <div className="col-12">
-                    <h3>{props.dish.name}</h3>
-                    <hr />
+    if (props.isLoading) {
+        return (
+            <div className="container">
+                <div className="row">
+                    <Loading />
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12 col-md-5 m-1">
-                    <RenderDish dish={props.dish} />
+        );
+    }
+    else if (props.errMess) {
+        return (
+            <div className="container">
+                <div className="row">
+                    <h4>{props.errMess}</h4>
                 </div>
-                <div className="col-12 col-md-5 m-1">
-                    <RenderComments comments={props.comments} />
-                    <Button outline onClick={toggleModal}>
-                        <span class="fa fa-pencil fa-lg " /> Submit Comment
-                    </Button>
-                </div>
-
             </div>
-            <Modal isOpen={isModalOpen} toggle={toggleModal}>
-                <Mod toggle={toggleModal} addComment={props.addComment} dishId={props.dish.id} />
-            </Modal>
-        </div>
-    )
+        );
+    }
+    else if (props.dish != null) {
+        return (
+            <div div className="container" >
+                <div className="row">
+                    <Breadcrumb>
+
+                        <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
+                        <BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
+                    </Breadcrumb>
+                    <div className="col-12">
+                        <h3>{props.dish.name}</h3>
+                        <hr />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12 col-md-5 m-1">
+                        <RenderDish dish={props.dish} />
+                    </div>
+                    <div className="col-12 col-md-5 m-1">
+                        <RenderComments comments={props.comments} />
+                        <Button outline onClick={toggleModal}>
+                            <span className="fa fa-pencil fa-lg " /> Submit Comment
+                        </Button>
+                    </div>
+
+                </div>
+                <Modal isOpen={isModalOpen} toggle={toggleModal}>
+                    <Mod toggle={toggleModal} addComment={props.addComment} dishId={props.dish.id} />
+                </Modal>
+            </div>
+        )
+    }
 
 }
-export default DishDeails;
+export default DishDetail;
