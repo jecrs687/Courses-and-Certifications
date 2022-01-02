@@ -1,10 +1,13 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { Loading } from './LoadingComponent';
+import { Stagger } from 'react-animation-components'
 // I'm using a new version of reactstrap, react-router-dom and others things
 function RenderLeader({ leader }) {
     return (
         <>
+
             <Media className="row mt-3">
                 <Media className="col-12 col-md-1 m-5 mt-0">
 
@@ -21,13 +24,18 @@ function RenderLeader({ leader }) {
     )
 }
 
-function About(props) {
+function About({ leaders, isLoading, errMess }) {
 
-    const leaders = props.leaders.map((leader) => {
+    const renderLeaders = leaders.map((leader, index) => {
         return (
-            <RenderLeader leader={leader} />
+            <Stagger key={index} in>
+
+                <RenderLeader leader={leader} />
+            </Stagger>
+
         );
-    });
+    })
+
 
     return (
         <div className="container">
@@ -85,7 +93,16 @@ function About(props) {
                 </div>
                 <div className='col-12'>
                     <Media list>
-                        {leaders}
+                        {isLoading ?
+                            <Card>
+                                <Loading className="center" />
+                            </Card>
+                            :
+                            errMess ?
+                                <h4>{errMess}</h4>
+                                :
+                                renderLeaders
+                        }
                     </Media>
                 </div>
             </div>
