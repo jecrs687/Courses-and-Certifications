@@ -1,0 +1,1 @@
+export const BaseUrl = "https://jecrs687.github.io/Courses-and-Certifications/Confusion"
