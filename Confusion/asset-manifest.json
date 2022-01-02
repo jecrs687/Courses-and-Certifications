@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Courses-and-Certifications/Confusion/static/css/main.b65a7245.css",
-    "main.js": "/Courses-and-Certifications/Confusion/static/js/main.898a1978.js",
+    "main.js": "/Courses-and-Certifications/Confusion/static/js/main.c4a17342.js",
     "static/js/787.e2b60f68.chunk.js": "/Courses-and-Certifications/Confusion/static/js/787.e2b60f68.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Courses-and-Certifications/Confusion/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Courses-and-Certifications/Confusion/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Courses-and-Certifications/Confusion/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Courses-and-Certifications/Confusion/index.html",
     "main.b65a7245.css.map": "/Courses-and-Certifications/Confusion/static/css/main.b65a7245.css.map",
-    "main.898a1978.js.map": "/Courses-and-Certifications/Confusion/static/js/main.898a1978.js.map",
+    "main.c4a17342.js.map": "/Courses-and-Certifications/Confusion/static/js/main.c4a17342.js.map",
     "787.e2b60f68.chunk.js.map": "/Courses-and-Certifications/Confusion/static/js/787.e2b60f68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b65a7245.css",
-    "static/js/main.898a1978.js"
+    "static/js/main.c4a17342.js"
   ]
 }
