@@ -1,10 +1,10 @@
 # Here's the place where I had improved myself with great skills
-To improve myself and my knowlegde as well, I decided to start courses on online plataforms during the covid pandemic.
-- [Machine Learning Foundations: A Case Study Approach by university of washington](#machine).
+To improve me and my knowledge as well, I decided to start courses on online platforms during the covid pandemic.
+- [Machine Learning Foundations: A Case Study Approach by the university of washington](#machine).
 - [Front-End With React by Hong Kong University](#React)
 
 ## <a name="machine">Machine Learning Foundations</a>
-I did this course in coursera plataform. It was a great course to start on the machile learning's world. 
+I did this course in coursera plataform. It was a great course to start on the machine learning's world. 
 if you would to check the cetificate [link](https://coursera.org/share/09b4af1cf4bc575eb15e147ffb18cddd)
 Furthermore, [here's](https://www.coursera.org/specializations/machine-learning) the link for the course.
 <details>
@@ -46,14 +46,14 @@ Week 6 - Deep Learning: Searching for Images
 </details>
 
 ## <a name="React">Front-End With React by Hong Kong University</a>
-I did this course in coursera plataform. It was a great course to became in a next level with react.
+I did this course in coursera platform. It was a great course to became in a next level with react.
 [Here's](https://www.coursera.org/learn/front-end-react) the link for the course. 
 <details>
 <summary>
 Week 1 - Introduction to React
 </summary>
 We started the development of a react application, it name is ConFusion, it is something like a menu for a restaurant with who has that name. 
-I learned about components (I aready did know it, but the course was more deep than my knowlegde). Also, we create a page using bootstrap, react-scrap, font-awesome and other tecnologies
+I learned about components (I already did know it, but the course was deeper than my knowledge). Also, we create a page using bootstrap, react-scrap, font-awesome, and other technologies
 
 
 </details>
@@ -68,11 +68,12 @@ Here we used the react-router-dom to implement a single page application
 <summary>
 Week 3 - React Forms, Flow Architecture and Introduction to Redux
   </summary>
-Here we created on two ways forms. In the first way we used only react and in the second way 
+Here we created in two ways forms. Firstly, we used only react and, in a second way, we used a library to interact directly with redux. 
+
 </details><details>
 <summary>
 Week 4 - More Redux and Client-Server Communication
-
+Here, we used some packages to do our server and that server provide json for our application. 
 </summary>
 
 </details>
