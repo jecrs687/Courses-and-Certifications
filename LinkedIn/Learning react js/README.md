@@ -1,2 +1,2 @@
 ##it was a simple reactjs course
-here I learnt about React DOM, babbel and 
+here I learned about React DOM, Babbel, and other technologies 
