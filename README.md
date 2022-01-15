@@ -76,3 +76,6 @@ Courses I got:
 - [Learning react js](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/Learning%20react%20js)
 - [Learning typescript](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/Learning%20typescript)
 - [reactjs typescript](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/reactjs%20typescript)
+
+
+[![wakatime](https://wakatime.com/badge/user/777fc214-6eb8-4627-8c93-467c3ac7e028/project/0215dfe7-748d-42b7-975e-33e6f8b0e6f6.svg)](https://wakatime.com/badge/user/777fc214-6eb8-4627-8c93-467c3ac7e028/project/0215dfe7-748d-42b7-975e-33e6f8b0e6f6)
