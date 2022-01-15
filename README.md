@@ -2,6 +2,7 @@
 To improve me and my knowledge as well, I decided to start courses on online platforms during the covid pandemic.
 - [Machine Learning Foundations: A Case Study Approach by university of washington](#machine).
 - [Front-End With React by Hong Kong University](#React)
+- [LinkedIn Courses](#LinkedIn)
 ## <a name="machine">Machine Learning Foundations</a>
 I did this course on coursera platform. It was a great course to start in the machine learning world. 
 if you would to check the certificate [link](https://coursera.org/share/09b4af1cf4bc575eb15e147ffb18cddd)
@@ -68,3 +69,10 @@ Week 4 - More Redux and Client-Server Communication
 </summary>
 Using the package json-server I put to run my server to provide information to the website, also, the server provided, as well, pictures too.
 </details>
+
+## LinkedIn
+Trying the first month of linkerdIn Learning - because it's free. 
+Courses I got:
+- [Learning react js](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/Learning%20react%20js)
+- [Learning typescript](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/Learning%20typescript)
+- [reactjs typescript](https://github.com/jecrs687/Courses-and-Certifications/tree/master/LinkedIn/reactjs%20typescript)
