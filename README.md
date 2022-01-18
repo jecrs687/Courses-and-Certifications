@@ -86,7 +86,7 @@ Week 4 - Clustering and Similarity: Retrieving Documents
 </summary>
 Here I clustered documents based on TF-IDF. And I clustered more than 2 thousands documents about people on Wikipedia 
 </details>
-
+<details>
 <summary>
 Week 5 - Recommending Products
 </summary>
