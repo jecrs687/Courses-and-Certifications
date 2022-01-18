@@ -6,7 +6,6 @@ import Home from './HomeComponent'
 import DishDetail from './DishdetailComponent'
 import ContactUs from './ContactComponent'
 import About from './AboutUsComponent'
-import { withRouter } from '../functions/withRouter'
 import { Routes, Route, Navigate, useParams } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { addComment, fetchDishes } from '../redux/ActionCreators';
