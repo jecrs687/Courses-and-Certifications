@@ -57,14 +57,14 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   - [ ] API Gateway                         <kbd>B2</kbd>
   ### NGINX
   - [ ] WEB services                        <kbd>0 </kbd>
-  - [ ] Load balancer                       <kdb>0 </kbd>
+  - [ ] Load balancer                       <kbd>0 </kbd>
   ### Heroku 
-  - [x] used                                <kdb>A1</kbd>
+  - [x] used                                <kbd>A1</kbd>
   ### firebase
-  - [x] real-time database                  <kdb>B2</kbd>
-  - [ ] firestone                           <kdb>B1</kbd>
-  - [x] hosting                             <kdb>A1</kbd>
-  - [ ] API                                 <kdb>A1</kbd>              
+  - [x] real-time database                  <kbd>B2</kbd>
+  - [ ] firestone                           <kbd>B1</kbd>
+  - [x] hosting                             <kbd>A1</kbd>
+  - [ ] API                                 <kbd>A1</kbd>              
   ### operation Systems 
   - [x] Ubuntu                              <kbd>C2</kbd>
   - [x] MacOS                               <kbd>C2</kbd>
