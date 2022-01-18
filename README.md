@@ -3,6 +3,63 @@ To improve me and my knowledge as well, I decided to start courses on online pla
 - [Machine Learning Foundations: A Case Study Approach by university of washington](#machine).
 - [Front-End With React by Hong Kong University](#React)
 - [LinkedIn Courses](#LinkedIn)
+
+## List of things that I need to study yet: 
+<details>
+  <summary>Machine learning and Data science</summary>
+  
+  ### Javascripot
+  - [ ] ml5 and p5                          <kbd>A1</kbd>
+  ### Python
+  - [x] turecreate                          <kbd>B1</kbd>
+  - [ ] tensorflow                          <kbd>A1</kbd>
+  ### Theory
+  - [x] linear regression <kbd>B1</kbd>
+  > I need to go more deep on linear regression 
+  - [ ] activation functions                <kbd>A2</kbd>
+  - [ ] clustering                          <kbd>A2</kbd>
+  - [ ] KNN                                 <kbd>A2</kbd>
+</details>
+<details>
+  <summary>Back End</summary>
+  
+  ### typescript || javascript
+  - [x] axios                               <kbd>B1</kbd>
+  - [x] express                             <kbd>B1</kbd>
+  - [x] routes                              <kbd>B2</kbd>
+  - [x] API                                 <kbd>B2</kbd>
+  ### python
+  - [x] API.                                <kbd>B2</kbd>
+</details>
+<details>
+  <summary>Front End</summary>
+  
+  ### typescript || javascript
+  - [x] React                               <kbd>C1</kbd>
+  - [x] Vue                                 <kbd>A2</kbd>
+  - [x] routes                              <kbd>C2</kbd>
+  - [x] tailwind                            <kbd>B1</kbd>
+  - [x] bootstrap                           <kbd>B2</kbd>
+  - [x] redux                               <kbd>C1</kbd>
+  - [x] API                                 <kbd>C2</kbd>
+</details><details>
+  <summary>DevOps</summary>
+  
+  ### AWS
+  - [x] EC2                                 <kbd>B1</kbd>
+  - [ ] lambda                              <kbd>0</kbd>
+  - [ ] dynamoDB                            <kbd>0</kbd>
+  - [ ] API Gateway                         <kbd>B2</kbd>
+  ### NGINX
+  - [ ] WEB services                        <kbd>0</kbd>
+  - [ ] Load balancer                       <kdb>0</kbd>
+</details>
+
+> 0 -> without experience
+> 
+> C2 ->  More than 4 years using or really expertise
+> - [ ] -> I'm not comfortable using ... 
+> - [x] -> I'm comfortable using
 ## <a name="machine">Machine Learning Foundations</a>
 I did this course on coursera platform. It was a great course to start in the machine learning world. 
 if you would to check the certificate [link](https://coursera.org/share/09b4af1cf4bc575eb15e147ffb18cddd)
