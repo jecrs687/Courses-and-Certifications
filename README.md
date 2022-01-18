@@ -52,15 +52,14 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   
   ### AWS
   - [x] EC2                                 <kbd>B1</kbd>
-  - [ ] lambda                              <kbd>0</kbd>
-  - [ ] dynamoDB                            <kbd>0</kbd>
+  - [ ] lambda                              <kbd>0 </kbd>
+  - [ ] dynamoDB                            <kbd>0 </kbd>
   - [ ] API Gateway                         <kbd>B2</kbd>
   ### NGINX
-  - [ ] WEB services                        <kbd>0</kbd>
-  - [ ] Load balancer                       <kdb>0</kbd>
+  - [ ] WEB services                        <kbd>0 </kbd>
+  - [ ] Load balancer                       <kdb>0 </kbd>
   ### Heroku 
   - [x] used                                <kdb>A1</kbd>
-
   ### firebase
   - [x] real-time database                  <kdb>B2</kbd>
   - [ ] firestone                           <kdb>B1</kbd>
