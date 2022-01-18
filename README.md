@@ -4,7 +4,7 @@ To improve me and my knowledge as well, I decided to start courses on online pla
 - [Front-End With React by Hong Kong University](#React)
 - [LinkedIn Courses](#LinkedIn)
 
-## List of things that I need to study yet: 
+## List of studies: 
 <details>
   <summary>Machine learning and Data science</summary>
   
@@ -14,10 +14,10 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   - [x] turecreate                          <kbd>B1</kbd>
   - [ ] tensorflow                          <kbd>A1</kbd>
   ### Theory
-  - [x] linear regression <kbd>B1</kbd>
+  - [x] linear regression                   <kbd>B1</kbd>
   > I need to go more deep on linear regression 
   - [ ] activation functions                <kbd>A2</kbd>
-  - [ ] clustering                          <kbd>A2</kbd>
+  - [x] clustering                          <kbd>A2</kbd>
   - [ ] KNN                                 <kbd>A2</kbd>
 </details>
 <details>
@@ -30,6 +30,11 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   - [x] API                                 <kbd>B2</kbd>
   ### python
   - [x] API.                                <kbd>B2</kbd>
+  ### databases
+  - [ ] dynamoDB                             <kbd>0</kbd>
+  - [ ] MariaDB                              <kbd>A2</kbd>
+  - [ ] MongoDB                              <kbd>A2</kbd>
+
 </details>
 <details>
   <summary>Front End</summary>
@@ -53,11 +58,25 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   ### NGINX
   - [ ] WEB services                        <kbd>0</kbd>
   - [ ] Load balancer                       <kdb>0</kbd>
+  ### Heroku 
+  - [x] used                                <kdb>A1</kbd>
+
+  ### firebase
+  - [x] real-time database                  <kdb>B2</kbd>
+  - [ ] firestone                           <kdb>B1</kbd>
+  - [x] hosting                             <kdb>A1</kbd>
+  - [ ] API                                 <kdb>A1</kbd>              
+  ### operation Systems 
+  - [x] Ubuntu                              <kbd>C2</kbd>
+  - [x] MacOS                               <kbd>C2</kbd>
+  - [x] Windows                             <kbd>C2</kbd>
+  ### Linux 
+  - [x] Raid's                              <kbd>C2</kbd>
 </details>
 
-> 0 -> without experience
-> 
-> C2 ->  More than 4 years using or really expertise
+>    0  -> without experience
+>
+>    C2 ->  More than 4 years using or really expertise
 > - [ ] -> I'm not comfortable using ... 
 > - [x] -> I'm comfortable using
 ## <a name="machine">Machine Learning Foundations</a>
