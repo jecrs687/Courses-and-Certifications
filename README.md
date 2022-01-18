@@ -111,6 +111,7 @@ Week 1 - Introduction to React
 I started the development of a react application, it name is ConFusion, it is something like a menu for a restaurant with who has that name. 
 I learned about components (I already did know it, but the course was deeper than my knowledge). Also, we create a page using bootstrap, react-scrap, font-awesome and other technologies
 </details>
+<details>
 <summary>
 Week 2 - React Router and Single Page Applications
 </summary>
