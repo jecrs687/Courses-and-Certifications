@@ -6,6 +6,30 @@ To improve me and my knowledge as well, I decided to start courses on online pla
 
 ## List of studies: 
 <details>
+<summary>Languages</summary>
+
+- [x] Italian                       <kbd>Fluent</kbd>
+- [x] Portuguese                    <kbd>Fluent</kbd>
+- [x] English                       <kbd>C1</kbd>
+- [ ] French                        <kbd>A2</kbd>
+- [ ] Spain                         <kbd>A1</kbd>
+- [ ] German                        <kbd>A1</kbd>
+
+</details>
+<details>
+<summary>Programming Languages</summary>
+
+- [x] Javascript                    <kbd>C1</kbd>
+- [x] Typescript                    <kbd>C1</kbd>
+- [x] C                             <kbd>C1</kbd>
+- [x] Python                        <kbd>C1</kbd>
+- [ ] Java                          <kbd>A2</kbd>
+- [ ] Go                            <kbd>0</kbd>
+- [ ] Scala                         <kbd>0</kbd>
+- [ ] Solidity                      <kbd>0</kbd>
+
+</details>
+<details>
   <summary>Machine learning and Data science</summary>
   
   ### Javascript
