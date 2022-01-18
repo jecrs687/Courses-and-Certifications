@@ -8,7 +8,7 @@ To improve me and my knowledge as well, I decided to start courses on online pla
 <details>
   <summary>Machine learning and Data science</summary>
   
-  ### Javascripot
+  ### Javascript
   - [ ] ml5 and p5                          <kbd>A1</kbd>
   ### Python
   - [x] turecreate                          <kbd>B1</kbd>
