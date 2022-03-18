@@ -50,6 +50,7 @@ To improve me and my knowledge as well, I decided to start courses on online pla
   ### typescript || javascript
   - [x] axios                               <kbd>B1</kbd>
   - [x] express                             <kbd>B1</kbd>
+  - [x] nestjs                              <kbd>B2</kbd>
   - [x] routes                              <kbd>B2</kbd>
   - [x] API                                 <kbd>B2</kbd>
   ### python
